@@ -1,0 +1,53 @@
+body{
+    background-image: url(4kobrazek.jpg);
+    background-size: cover;
+}
+
+.prvni { 
+    font-family: 'Arial', sans-serif;  
+    color: rgb(51, 255, 0);                                       
+}
+
+.druhy {
+    font-family: 'Courier New', Courier, monospace;                        
+    color: rgb(209, 36, 180);                                
+}
+
+.treti {
+    font-family: 'Georgia', serif;     
+    color: rgb(248, 248, 248);                                             
+}
+
+li.prvnipolozka {
+    color: red; 
+    list-style-type: upper-roman;
+}
+
+li.druhapolozka {
+    color: rgb(0, 247, 255); 
+    list-style-type: upper-roman;
+}
+
+li.tretipolozka {
+    color: rgb(135, 6, 255); 
+    list-style-type: upper-roman;
+}
+
+.jedna { 
+    font-family: 'Arial', sans-serif;  
+    color: rgb(51, 255, 0);
+    list-style-type: circle;                                       
+}
+
+.dva {
+    font-family: 'Courier New', Courier, monospace;                        
+    color: rgb(209, 36, 180);
+    list-style-type: square;                                
+}
+
+.tri {
+    font-family: 'Courier New', Courier, monospace;                        
+    color: rgb(209, 36, 180);
+    list-style-image: url(ptak\ fialovy.jpg);
+    list-style-position: inside;                              
+}
